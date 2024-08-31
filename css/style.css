@@ -1,0 +1,151 @@
+.imgLogo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+body {
+    background: url("https://images.pexels.com/photos/19670/pexels-photo.jpg");
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+}
+
+.nav-link :hover {
+    color: red !important;
+}
+
+.carousel-inner>div>img {
+    height: 80vh !important;
+}
+
+.welcomeimg{
+    aspect-ratio: auto;
+    height: 50vh;
+    width: auto;
+}
+
+.welcome_text{
+    padding: 10px;
+}
+
+/* .full-height {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.tabTitle {
+    font-size: 2.25em;
+    padding: 20px;
+}
+
+#welcometxt {
+    padding: 20px;
+}
+
+.txtGallery {
+    font-size: 2.25em;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-img-top {
+    height: 350px;
+}
+
+.cardReview1 {
+    width: calc(100%);
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 80px 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.cardReview1:hover {
+    transform: translateY(-10px);
+}
+
+.cardReview1 img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.cardReview {
+    width: calc(100% - 20px);
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.cardReview:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/19670/pexels-photo.jpg");
+    background-size: cover;
+    background-position: top;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .church {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px;
+}
+
+footer h3 {
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+
+footer ul li a {
+    color: white;
+}
+
+footer ul li :hover {
+    color: red;
+}
+
+#copyright {
+    margin-top: 20px;
+}

@@ -1,0 +1,126 @@
+.imgLogo {
+    height: 80px;
+    margin-right: 10px;
+}
+
+.church_name_lg {
+    display: inline;
+}
+
+.church_name_sm {
+    display: none;
+}
+
+body {
+    background: url("https://images.pexels.com/photos/19670/pexels-photo.jpg");
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+}
+
+.nav-link :hover {
+    color: red !important;
+}
+
+.navbar-light {
+    width: 100% !important;
+}
+
+.section-body {
+    margin-top: 4rem;
+}
+
+.welcomeimg {
+    aspect-ratio: auto;
+    height: 50vh;
+    width: auto;
+    box-shadow: 0px 2px 18px #3f51b5;
+}
+
+.welcome_text {
+    padding: 10px;
+}
+
+.tabTitle {
+    font-size: 2.25em;
+    padding: 20px;
+}
+
+
+.full-height {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cross_logo{
+    border-radius: 50%;
+    width:100px !important;
+}
+
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (max-width: 1023px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+
+
+
+/* Default Width: */
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+    .imgLogo {
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .welcomeimg {
+        aspect-ratio: auto;
+        height: 28vh;
+        width: auto;
+    }
+
+    .church_name_lg {
+        display: none;
+    }
+
+    .church_name_sm {
+        display: inline;
+    }
+
+    .img_margin_sm{
+        margin-top: 10px;
+    }
+
+
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
