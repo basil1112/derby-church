@@ -1,5 +1,5 @@
 .imgLogo {
-    height: 80px;
+    height: 70px;
     margin-right: 10px;
 }
 
@@ -61,7 +61,76 @@ body {
 .cross_logo{
     border-radius: 50%;
     width:100px !important;
+    box-shadow: 0px 2px 18px #ffbc0a;
+    
 }
+
+.service_card{
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+    min-height: 100% !important;
+}
+.service_card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top { 
+    min-width:20vw;
+}
+
+.leaders{
+    min-width: 20vw;
+    min-height: 75vh;
+}
+
+
+
+
+
+
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/19670/pexels-photo.jpg");
+    background-size: cover;
+    background-position: top;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .church {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px;
+}
+
+footer h3 {
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+
+footer ul li a {
+    color: white;
+}
+
+footer ul li :hover {
+    color: red;
+}
+
+#copyright {
+    margin-top: 20px;
+}
+
 
 
 
@@ -77,11 +146,6 @@ body {
 
 
 
-/* Default Width: */
-.container {
-    width: 940px;
-    margin: 0 auto;
-}
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
@@ -107,6 +171,22 @@ body {
 
     .img_margin_sm{
         margin-top: 10px;
+    }
+
+    .leaders{
+        max-width: 100% !important;
+        margin-top: 20px;
+        min-height: 60vh;
+    }
+
+    .card-img-top { 
+        width: 100% !important
+    }
+    
+    .welcomeimg{
+        aspect-ratio: auto;
+        height: 50vh;
+        width: auto;
     }
 
 
